@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#80000000"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aimbot Controls"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/minimize_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="−"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Aimbot"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delay (ms)"
+        android:textColor="#FFFFFF"/>
+    <SeekBar
+        android:id="@+id/delay_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smoothness"
+        android:textColor="#FFFFFF"/>
+    <SeekBar
+        android:id="@+id/smoothness_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"/>
+</LinearLayout>
