@@ -3,5 +3,7 @@
 
     <string name="app_name">RootedAimV1</string>
     <string name="hello_world">Hello world!</string>
+    <string name="default_channel_name">General Notifications</string>
+    <string name="default_channel_id">default_channel</string>
 
 </resources>
